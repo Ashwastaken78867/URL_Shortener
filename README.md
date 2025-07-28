@@ -27,18 +27,18 @@ git clone https://github.com/Ashwastaken78867/URL_Shortener.git
 cd URL_Shortener
 npm install
 
-🔑 Environment Setup
+## 🔑 Environment Setup
 Create a .env file in the root directory:
 
 MONGODB_URI=mongodb://localhost:27017/url-shortener
 JWT_SECRET=your_jwt_secret
 BASE_URL=http://localhost:3001
 
-🧪 Run Locally
+## 🧪 Run Locally
 npm run start:dev
 App will be running at: http://localhost:3001
 
-📬 API Endpoints
+## 📬 API Endpoints
 | Method | Endpoint           | Description                  | Auth Required |
 | ------ | ------------------ | ---------------------------- | ------------- |
 | POST   | `/auth/register`   | Register a new user          | ❌             |
@@ -47,10 +47,10 @@ App will be running at: http://localhost:3001
 | GET    | `/r/:shortCode`    | Redirect to original URL     | ❌             |
 | GET    | `/api/stats/:code` | View analytics for short URL | ✅             |
 
-📄 Full Swagger documentation available at:
+## 📄 Full Swagger documentation available at:
 http://localhost:3001/docs
 
-🔐 Authentication (Bonus Feature)
+## 🔐 Authentication (Bonus Feature)
 JWT-based authentication
 
 Passwords are hashed with bcrypt
