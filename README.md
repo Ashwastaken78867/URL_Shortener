@@ -61,12 +61,20 @@ Live URL: [https://url-shortener-k9uk.onrender.com](https://url-shortener-k9uk.o
 
 ---
 
-## 📄 API Documentation (Swagger)
+## ✅ Bonus Features Completed
 
-Interactive API docs are available at:
+- 🔐 **JWT Authentication**  
+  Implemented secure login and route protection using JSON Web Tokens. Authenticated routes require a valid token in the `Authorization` header.
 
-```bash
-https://url-shortener-k9uk.onrender.com/docs
+- 🚫 **Rate Limiting**  
+  Used `@nestjs/throttler` to limit login attempts to 5 per minute per IP, protecting against brute-force attacks.
+
+- 🧪 **Swagger Documentation**  
+  Integrated Swagger for interactive API testing at `/docs`. All routes are documented with request/response schemas and auth handling.
+
+- 📎 **Custom Error Handling**  
+  Added a global exception filter to return a user-friendly message for rate-limited requests (HTTP 429).
+
 
 
 
