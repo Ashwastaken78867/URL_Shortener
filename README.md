@@ -27,13 +27,10 @@ Live URL: [https://url-shortener-k9uk.onrender.com](https://url-shortener-k9uk.o
 
 1. **Clone the repository**
 
-```bash
-git clone https://github.com/Ashwastaken78867/URL_Shortener.git
-cd URL_Shortener
+   ```bash
+   git clone https://github.com/Ashwastaken78867/URL_Shortener.git
+   cd URL_Shortener
 
-2. Install dependencies
-
-npm install
 
 
 
