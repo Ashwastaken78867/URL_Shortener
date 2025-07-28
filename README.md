@@ -33,5 +33,19 @@ Live URL: [https://url-shortener-k9uk.onrender.com](https://url-shortener-k9uk.o
 
 2. Install dependencies
 
-npm install
+ npm install
+
+3.Set up environment variables
+Create a .env file in the root directory and add:
+
+MONGODB_URI=mongodb://localhost:27017/url-shortener
+JWT_SECRET=your_jwt_secret_key
+BASE_URL=http://localhost:3001
+
+4. Run the app in development mode
+
+ npm run start:dev
+
+The app will start at: http://localhost:3001
+Swagger Docs: http://localhost:3001/docs
 
