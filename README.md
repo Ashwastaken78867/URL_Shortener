@@ -31,3 +31,10 @@ Live URL: [https://url-shortener-k9uk.onrender.com](https://url-shortener-k9uk.o
 git clone https://github.com/Ashwastaken78867/URL_Shortener.git
 cd URL_Shortener
 
+2. Install dependencies
+
+npm install
+
+
+
+
