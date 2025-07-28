@@ -35,7 +35,7 @@ Live URL: [https://url-shortener-k9uk.onrender.com](https://url-shortener-k9uk.o
 
      npm install
 
-3.Set up environment variables
+3. Set up environment variables
    Create a .env file in the root directory and add:
 
    MONGODB_URI=mongodb://localhost:27017/url-shortener
