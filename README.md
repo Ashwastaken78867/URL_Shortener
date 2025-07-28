@@ -34,8 +34,7 @@ MONGODB_URI=mongodb://localhost:27017/url-shortener
 JWT_SECRET=your_jwt_secret
 BASE_URL=http://localhost:3001
 
-## 🧪 Run Locally
-npm run start:dev
+cnpm run start:dev
 App will be running at: http://localhost:3001
 
 ## 📬 API Endpoints
