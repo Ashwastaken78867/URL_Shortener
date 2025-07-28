@@ -22,7 +22,7 @@ A full-featured URL shortener built with **NestJS** and **MongoDB**, supporting:
 ### 📦 Installation
 
 ```bash
-git clone https://github.com/your-username/url-shortener.git
+-git clone https://github.com/your-username/url-shorteer.git
 cd url-shortener
 npm install
 
