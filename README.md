@@ -77,12 +77,32 @@ Live URL: [https://url-shortener-k9uk.onrender.com](https://url-shortener-k9uk.o
   Added a global exception filter to return a user-friendly message for rate-limited requests (HTTP 429).
 
 
-## 📄 API Documentation (Swagger)
+---
 
-Interactive API docs are available at:
+## 👨‍💻 Author
 
-```bash
-https://url-shortener-k9uk.onrender.com/docs
+**Ash Bagda**
+
+- GitHub: [Ashwastaken78867](https://github.com/Ashwastaken78867)
+- Deployed App: [Live Demo](https://url-shortener-k9uk.onrender.com)
+
+---
+
+## 📌 License
+
+This project is licensed under the MIT License - feel free to use and modify it for your own learning or projects.
+
+---
+
+## 🌟 Acknowledgements
+
+Thanks to the NestJS and MongoDB communities for their excellent documentation and support!
+
+
+
+
+
+
 
 
 
