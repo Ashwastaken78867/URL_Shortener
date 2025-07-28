@@ -49,3 +49,23 @@ Live URL: [https://url-shortener-k9uk.onrender.com](https://url-shortener-k9uk.o
    The app will start at: http://localhost:3001
    Swagger Docs: http://localhost:3001/docs
 
+## 📬 API Endpoints
+
+| Method | Endpoint           | Description                  | Auth Required |
+|--------|--------------------|------------------------------|----------------|
+| POST   | `/auth/register`   | Register a new user          | ❌ No          |
+| POST   | `/auth/login`      | Login and receive JWT token  | ❌ No          |
+| POST   | `/api/shorten`     | Create a short URL           | ✅ Yes         |
+| GET    | `/r/:shortCode`    | Redirect to original URL     | ❌ No          |
+| GET    | `/api/stats/:code` | View analytics of short URL  | ✅ Yes         |
+
+---
+
+## 📄 API Documentation (Swagger)
+
+Interactive API docs are available at:
+
+```bash
+https://url-shortener-k9uk.onrender.com/docs
+
+
