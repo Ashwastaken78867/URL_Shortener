@@ -49,6 +49,7 @@ Live URL: [https://url-shortener-k9uk.onrender.com](https://url-shortener-k9uk.o
    The app will start at: http://localhost:3001
    Swagger Docs: http://localhost:3001/docs
 
+
 ## 📬 API Endpoints
 
 | Method | Endpoint           | Description                  | Auth Required |
@@ -76,7 +77,12 @@ Live URL: [https://url-shortener-k9uk.onrender.com](https://url-shortener-k9uk.o
   Added a global exception filter to return a user-friendly message for rate-limited requests (HTTP 429).
 
 
+## 📄 API Documentation (Swagger)
 
+Interactive API docs are available at:
+
+```bash
+https://url-shortener-k9uk.onrender.com/docs
 
 
 
