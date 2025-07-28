@@ -12,3 +12,22 @@ Live URL: [https://url-shortener-k9uk.onrender.com](https://url-shortener-k9uk.o
 - **Security:** @nestjs/throttler for rate limiting
 - **API Documentation:** Swagger (via @nestjs/swagger)
 - **Deployment:** [Render](https://render.com/)
+
+## 🛠️ Local Setup & Running the Application
+
+### 📦 Prerequisites
+
+- Node.js v18+
+- MongoDB (local instance or cloud like MongoDB Atlas)
+- npm or yarn installed
+
+---
+
+### 🚀 Installation Steps
+
+1. **Clone the repository**
+
+```bash
+git clone https://github.com/Ashwastaken78867/URL_Shortener.git
+cd URL_Shortener
+
