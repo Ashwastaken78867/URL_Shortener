@@ -1,3 +1,4 @@
+// src/app.module.ts
 import { Module } from '@nestjs/common';
 import { MongooseModule } from '@nestjs/mongoose';
 import { ConfigModule } from '@nestjs/config';
@@ -12,6 +13,7 @@ import { Url, UrlSchema } from './url/url.schema';
 
 import { AuthModule } from './auth/auth.module';
 import { User, UserSchema } from './auth/user.schema';
+import { AppController } from './app.controller'; // ✅ include controller
 
 @Module({
   imports: [
@@ -34,17 +36,16 @@ import { User, UserSchema } from './auth/user.schema';
       { name: User.name, schema: UserSchema },
     ]),
 
-    // ✅ Define multiple named throttlers
     ThrottlerModule.forRoot([
       {
         name: 'login',
-        ttl: 60_000, // 60 seconds
-        limit: 10,   // 10 requests per minute
+        ttl: 60_000,
+        limit: 10,
       },
       {
         name: 'register',
-        ttl: 60_000, // 60 seconds
-        limit: 5,    // 5 requests per minute
+        ttl: 60_000,
+        limit: 5,
       },
     ]),
 
@@ -52,7 +53,7 @@ import { User, UserSchema } from './auth/user.schema';
     AuthModule,
   ],
 
-  controllers: [UrlController, UrlRedirectController],
+  controllers: [AppController, UrlController, UrlRedirectController],
 
   providers: [
     UrlService,
